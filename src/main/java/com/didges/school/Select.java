@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-@NoArgsConstructor
 public class Select extends JavaSchoolStarter {
     private final List<Map<String, Object>> listToReturn = new ArrayList<>();
     List<Map<String, Object>> select(String condition, List<Map<String, Object>> data) {
